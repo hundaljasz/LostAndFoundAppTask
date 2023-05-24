@@ -10,7 +10,7 @@
         android:id="@+id/newAdvert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="528dp"
+        android:layout_marginTop="428dp"
         android:text="Create a New Advert."
         android:textSize="18sp"
         android:textStyle="bold"
@@ -28,10 +28,25 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/newAdvert"
-        app:layout_constraintVertical_bias="0.392" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Show on Map"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newAdvert"
+        app:layout_constraintVertical_bias="0.529" />
 
     <ImageView
         android:id="@+id/imageView2"

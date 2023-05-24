@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LostAndFoundTaskJass</string>
+    <string name="api_key_places">AIzaSyB65LpbHTkKKJ4EE7gV--oCVD4ryOaYjrI</string>
+    <string name="map_key" translatable="false">AIzaSyB65LpbHTkKKJ4EE7gV--oCVD4ryOaYjrI</string>
 </resources>

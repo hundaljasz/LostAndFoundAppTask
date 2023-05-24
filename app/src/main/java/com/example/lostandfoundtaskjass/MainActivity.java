@@ -25,5 +25,10 @@ public class MainActivity extends AppCompatActivity {
             Intent advertScreen = new Intent(MainActivity.this, ViewItemsActivity.class);
             startActivity(advertScreen);
         });
+
+        binding.map.setOnClickListener(view -> {
+            Intent mapScreen = new Intent(MainActivity.this,MapActivity.class);
+            startActivity(mapScreen);
+        });
     }
 }
